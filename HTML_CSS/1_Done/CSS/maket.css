@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: rgba(229, 228, 228, 0.99);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background: #203642;
+    width: 100vw;
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: #b7b3b3;
+}
+
+header>i>span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+header>nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+header>nav>ul>li {
+    margin-right: 10px;
+    transition: 0.5s;
+
+}
+
+header>nav>ul>li:hover{
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+header>input, .intro_content>button {
+    background: rgba(135, 165, 194, 0.81);
+    border: none;
+    border-radius: 5px;
+    width: 8vw;
+    height: 4vh;
+    transition: 0.5s;
+}
+
+header>input:hover, .intro_content>button:hover {
+    transform: scaleX(1.2) scaleY(1.3);
+    transition: 1s;
+    background: #406ab6;
+    color: #f8f3f3;
+    cursor: pointer;
+}
+
+
+.intro {
+    width: 100vw;
+    height: 92vh;
+    background-image: url("https://img.freepik.com/free-photo/landmarks-modern-city_1359-338.jpg?w=1480&t=st=1690353492~exp=1690354092~hmac=bad8809d2d66e44ad02c0a9e01e3d8ef7e903b0fd77b69924564e60cd85021a5");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro_titles {
+    width: 70%;
+    height: 20%;
+}
+
+.intro_content {
+    width: 40%;
+    margin: 20px 10%;
+    color: white;
+    position: absolute;
+}
+.intro_content>p {
+    margin-top: 10%;
+}
+
+
+
+.intro_titles {
+    font-size: 2em;
+    font-style: oblique;
+    margin-top: 5%;
+}
+
+.intro_content>button {
+    width: 50%;
+    height: 50px;
+    margin-top: 20%;
+}
+
+.about_us {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-left: 10%;
+    color: #4e6d96;
+}
+
+
+
+.about_cliens {
+    width: 60%;
+    font-size: 2em;
+    font-style: italic;
+    line-height: 30px;
+
+
+}
+
+.about_cliens>h4, .about_cliens>p {
+    margin-top: 10px;
+}
+
+.aboutClientsText {
+    font-size: 1.6em;
+    margin-left: 10px;
+}
+
+
+
+.aboutClientsText>span {
+    font-size: 0.5em;
+}
+
+.about_cliens>p {
+    font-size: 0.7em;
+}
+
+
+.achievments {
+    width: 50%;
+}
+
+.achievments>i {
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+
+
+.trustedClientsBlock {
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    color: #4e6d96;
+
+}
+
+.trustedClientsBlock>h3 {
+    font-size: 1.7em;
+}
+
+.trustedClients {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trustedClients>div {
+    width: 12vw;
+    height: 7vh;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: white;
+}
+
+.projects {
+    margin-left: 9.5%;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card>span {
+    color: orange;
+}
+
+.card>p>small {
+    color: #6e6b6b;
+}
+
+.card>h4, .card>p {
+    margin: 20px 0;
+}
+
+
+
+.card>img {
+    width: 300px;
+}
+
+.banner {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.banner>h4 {
+    font-size: 2em;
+    font-style: italic;
+    color: #4e6d96;
+}
+
+.banner>p {
+    font-style: oblique;
+    color: #4f4d4d;
+    margin-bottom: 20px;
+}
+
+.banner_picture {
+    width: 10%;
+    height: 200px;
+    background: #9556af;
+}
+
+.banner>img {
+    width: 800px;
+}
+
+
+.wordsFromClientsBlock {
+    background: #9cb8d3;
+    height: 50vh;
+    align-items: center;
+    margin-top: 250px;
+    display:inline-block;
+
+}
+
+.wordsFromClientsBlock>h4 {
+    margin-top: 30px;
+    color: #49525b;
+}
+
+
+
+.textFromClientDiv {
+    width: 50%;
+    text-align: start;
+    align-items: center;
+    font-size: 1em;
+    line-height: 20px;
+    background: #f3f2f2;
+    margin-left: 25%;
+    margin-top: 4%;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.registration {
+    width: 70%;
+    height: 30vh;
+    margin-left: 15%;
+    background: none;
+}
+
+
+
+footer {
+    width: 100vw;
+    height: 30vh;
+    background: #38627c;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: start;
+}
+
+.footerContent {
+    margin-top: 30px;
+    margin-left: 10%;
+    /*display: flex;*/
+    justify-content: start;
+}
+
+.footerContent>i {
+    width: 0;
+    margin-bottom: 30px;
+}
+
+.footerContent>a {
+    /*top: 20px;*/
+    margin-right: 20px;
+}
+
+.footerContent>ul {
+    display: flex;
+    margin-left: -10%;
+    margin-top: 15px;
+}
+
+.footerContent>ul>li {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
