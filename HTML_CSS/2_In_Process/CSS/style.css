@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #2196F3;
+    font-family: Roboto sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    transition: 0.5s;
+}
+
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background: #FFF;
+    border: 0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+header>span>span, footer>span>span {
+    color: #2196F3;
+}
+
+.mainTitle {
+    margin-right: 2vw;
+    font-size: 26px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 300px;
+}
+
+.phone_link {
+    margin-left: 50px;
+}
+
+nav>ul>li {
+    margin-right: 40px;
+}
+
+.intro {
+    background: #2F303A;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+
+.intro>div {
+    width: 60vw;
+    margin-left: 18%;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.intro>div>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.intro>div>a>input {
+    margin-top: 30px;
+    width: 216px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    border: none;
+    transition: 1s;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+}
+
+.intro>div>a>input:hover {
+    transform: scaleX(120%) scaleY(120%);
+    transition: 1s;
+}
+
+
+.advantages {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.advantages>div {
+    width: 20vw;
+    text-align: start;
+    margin-top: 15vh;
+    margin-left: 20px;
+
+}
+
+.advantages>div>h4 {
+    color: #212121;
+    font-family: Roboto sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.advantages>div>p {
+    color: #757575;
+    font-family: Roboto sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+    margin-top: 20px;
+}
+
+
+.to_do {
+    width: 100vw;
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card_header {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.cards_todo {
+    width: 33%;
+    display: flex;
+    /*justify-content: center;*/
+    margin-top: 3%;
+    margin-left: 4.5%
+}
+
+.cards_todo>img {
+    width: 350px;
+    margin: 0 20px;
+}
+
+
+
+
+
+
+.team {
+    margin-top: 25vh;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    background: #F5F4FA;
+    height: 110vh;
+}
+
+.team>h4 {
+    padding-top: 100px;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.container{
+    display: flex;
+    /*justify-content: space-between;*/
+    margin-top: 10vh;
+}
+
+
+.cards_team {
+    margin-left: 4vw;
+    align-items: center;
+    height: 58vh;
+
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+     /*material shadow v1 */
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+
+.cards_team>img {
+    width: 250px;
+    /*margin-right: 20px;*/
+}
+
+.cards_team>h5, .cards_team>h6 {
+    margin-top: 15px;
+}
+
+
+
+footer {
+    width: 100vw;
+    height: 35vh;
+    background: #2F303A;
+    justify-content: start;
+}
+
+.footerContent {
+    margin-left: 200px;
+
+}
+
+
+
+
+
+
